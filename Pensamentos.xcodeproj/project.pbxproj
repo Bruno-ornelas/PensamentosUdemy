@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		91212CC323C7477F0026F145 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91212CC223C7477F0026F145 /* Quote.swift */; };
 		91212CC623C747EC0026F145 /* QuotesManages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91212CC523C747EC0026F145 /* QuotesManages.swift */; };
 		91212CC823C7481C0026F145 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91212CC723C7481C0026F145 /* Configuration.swift */; };
+		91212CCA23C7AE270026F145 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91212CC923C7AE260026F145 /* Quote.swift */; };
+		91212CCD23C7BA0F0026F145 /* Savoye LET.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 9162CE1023C661C300815423 /* Savoye LET.ttc */; };
 		9162CDFB23C660C900815423 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9162CDFA23C660C900815423 /* AppDelegate.swift */; };
 		9162CDFD23C660C900815423 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9162CDFC23C660C900815423 /* SceneDelegate.swift */; };
 		9162CE0223C660C900815423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9162CE0023C660C900815423 /* Main.storyboard */; };
@@ -21,9 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		91212CC223C7477F0026F145 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		91212CC523C747EC0026F145 /* QuotesManages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesManages.swift; sourceTree = "<group>"; };
 		91212CC723C7481C0026F145 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		91212CC923C7AE260026F145 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		9162CDF723C660C900815423 /* Pensamentos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pensamentos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9162CDFA23C660C900815423 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9162CDFC23C660C900815423 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,9 +52,9 @@
 		91212CC423C747B30026F145 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				91212CC223C7477F0026F145 /* Quote.swift */,
 				91212CC523C747EC0026F145 /* QuotesManages.swift */,
 				91212CC723C7481C0026F145 /* Configuration.swift */,
+				91212CC923C7AE260026F145 /* Quote.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -174,6 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91212CCD23C7BA0F0026F145 /* Savoye LET.ttc in Resources */,
 				9162CE0F23C661BA00815423 /* quotes.json in Resources */,
 				9162CE0723C660CB00815423 /* LaunchScreen.storyboard in Resources */,
 				9162CE0423C660CB00815423 /* Assets.xcassets in Resources */,
@@ -188,12 +190,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91212CCA23C7AE270026F145 /* Quote.swift in Sources */,
 				9162CE1323C6C60300815423 /* QuotesViewController.swift in Sources */,
 				91212CC623C747EC0026F145 /* QuotesManages.swift in Sources */,
 				91212CC823C7481C0026F145 /* Configuration.swift in Sources */,
 				9162CDFB23C660C900815423 /* AppDelegate.swift in Sources */,
 				9162CDFD23C660C900815423 /* SceneDelegate.swift in Sources */,
-				91212CC323C7477F0026F145 /* Quote.swift in Sources */,
 				9162CE1523C6C65C00815423 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
