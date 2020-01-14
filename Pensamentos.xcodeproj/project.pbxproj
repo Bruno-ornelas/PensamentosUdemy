@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9119F10623CD426B0019F98D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9119F10523CD426B0019F98D /* Settings.bundle */; };
 		91212CC623C747EC0026F145 /* QuotesManages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91212CC523C747EC0026F145 /* QuotesManages.swift */; };
 		91212CC823C7481C0026F145 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91212CC723C7481C0026F145 /* Configuration.swift */; };
 		91212CCA23C7AE270026F145 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91212CC923C7AE260026F145 /* Quote.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9119F10523CD426B0019F98D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = Pensamentos/Settings.bundle; sourceTree = SOURCE_ROOT; };
 		91212CC523C747EC0026F145 /* QuotesManages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesManages.swift; sourceTree = "<group>"; };
 		91212CC723C7481C0026F145 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		91212CC923C7AE260026F145 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				9162CE1723C6C75A00815423 /* Views */,
 				9162CE1623C6C6ED00815423 /* Controllers */,
 				9162CE0323C660CB00815423 /* Assets.xcassets */,
+				9119F10523CD426B0019F98D /* Settings.bundle */,
 				9162CE0823C660CB00815423 /* Info.plist */,
 			);
 			path = Pensamentos;
@@ -179,6 +182,7 @@
 				9162CE0F23C661BA00815423 /* quotes.json in Resources */,
 				9162CE0723C660CB00815423 /* LaunchScreen.storyboard in Resources */,
 				9162CE0423C660CB00815423 /* Assets.xcassets in Resources */,
+				9119F10623CD426B0019F98D /* Settings.bundle in Resources */,
 				9162CE0223C660C900815423 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
